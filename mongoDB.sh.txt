@@ -1,0 +1,18 @@
+## Instructions MongoDB pour ligne de commande
+
+
+## code pour ajouter Laurent en ligne de commande part 2
+
+db.collectionneurs.insertOne(
+	{"Propriétaire":"Laurent",
+	 "Voiture":[{"Marque":"Volkswagen",
+	 	      "Modèle":"Coccinelle",
+	 	      "Dénomination":"Choupette",
+	 	      "Cylindrée":"1584",
+	 	      "Couleur":"Blanc"},
+	 	     {"Marque":"Cadillac",
+	 	      "Modèle":"Eldorado",
+	 	      "Dénomination":"Ectomobile-1",
+	 	      "Cylindrée":"6400",
+	 	      "Couleur":"Blanc"}]}
+)
